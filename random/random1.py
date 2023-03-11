@@ -9,5 +9,5 @@ print("randomizes the items of a list >> ", random.shuffle(my_list))
 print("shuffeled list >> ", my_list)
 
 print("random uniform >> ", random.uniform(30, 40)) # The uniform() method returns a random floating number between the two specified numbers (both included).
-
 print(random.choices(my_list, k=2)) # [9, 4]
+print([random.random() for _ in range(5)]) # List Comprehension
